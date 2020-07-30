@@ -147,6 +147,10 @@ extern(C++,CaboCha){
     }
 }
 unittest{
+    import std.string:toStringz;
     auto parser=createParser("");
-    //auto tree=parser.parse("");
+    auto tree=parser.parse("今日は向坂くんが休みなので、明日までに机の上に花瓶を置いておきます。".toStringz);
+    foreach(i;0..tree.size){
+        //TODO
+    }
 }

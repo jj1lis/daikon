@@ -3,7 +3,7 @@ import daikon.declare;
 
 nothrow @system:
 
-class CaboCha{
+class CaboChaPacket{
     private:
         string _sentence;
         Tree* _tree;
