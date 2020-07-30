@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"jj1lis"
+	],
+	"copyright": "Copyright © 2020, jj1lis",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "daikon",
+    "libs": ["cabocha"]
+}
